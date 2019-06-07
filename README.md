@@ -56,7 +56,7 @@ await server.register({
 })
 
 // went smooth like chocolate :)
-// now your hapi server supports 'server.extClass(class MyMiddleware {}'
+// now your hapi server supports 'server.extClass(class MyMiddleware {})'
 ```
 
 Having the plugin registered, you can now write your lifecycle extension points as classes:
