@@ -1,0 +1,52 @@
+{
+  "name": "hapi-class-extension-points",
+  "description": "hapi plugin that allows you to write your extension points as classes",
+  "version": "0.0.0",
+  "author": "Future Studio <info@futurestud.io>",
+  "bugs": {
+    "url": "https://github.com/futurestudio/hapi-class-extension-points/issues"
+  },
+  "contributors": [
+    {
+      "name": "Marcus Poehls",
+      "email": "marcus@futurestud.io"
+    }
+  ],
+  "devDependencies": {
+    "@hapi/code": "~5.3.1",
+    "@hapi/hapi": "~18.3.1",
+    "@hapi/hoek": "~6.2.1",
+    "@hapi/lab": "~18.1.2",
+    "eslint": "~5.16.0",
+    "eslint-config-standard": "~12.0.0",
+    "eslint-plugin-import": "~2.17.2",
+    "eslint-plugin-node": "~9.0.1",
+    "eslint-plugin-promise": "~4.1.1",
+    "eslint-plugin-standard": "~4.0.0",
+    "husky": "~2.4.0"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "homepage": "https://github.com/futurestudio/hapi-class-extension-points#readme",
+  "keywords": [
+    "hapi",
+    "hapi.js",
+    "hapijs",
+    "plugin"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futurestudio/hapi-class-extension-points.git"
+  },
+  "scripts": {
+    "prepush": "npm test",
+    "test": "lab --assert @hapi/code --leaks --coverage --lint"
+  },
+  "dependencies": {
+    "lodash": "~4.17.11",
+    "typical": "~5.0.0"
+  }
+}
