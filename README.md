@@ -68,8 +68,10 @@ class RateLimiting {
     this.server = server
   }
 
-  onRequest () {
+  onRequest (request) {
     // rate limit the request
+    
+    return this.rateLimitThe(request)
   }
 
   rateLimitThe (request) {
