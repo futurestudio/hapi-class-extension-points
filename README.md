@@ -2,7 +2,7 @@
   <br/>
   <br/>
   <p>
-    Use classes to add lifecycle extensions to a hapi server.
+    Use class methods to add lifecycle extension points to your hapi server.
   </p>
   <br/>
   <p>
