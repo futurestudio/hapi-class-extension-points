@@ -68,18 +68,22 @@ class RateLimiting {
     this.server = server
   }
 
-  onRequest (request) {
+  async onRequest (request, h) {
     // rate limit the request
-    
-    return this.rateLimitThe(request)
+
+    await this.handle(request)
+
+    return h.continue
   }
 
-  rateLimitThe (request) {
+  async handle (request) {
     // this is a private method that won't be registered as a lifecycle extension
   }
 
-  onPreResponse () {
+  onPreResponse (request, h) {
     // add rate limiting headers
+
+    return h.continue
   }
 }
 
