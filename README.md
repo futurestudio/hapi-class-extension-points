@@ -38,7 +38,7 @@ This hapi plugin adds the `server.extClass(class)` decoration to register lifecy
 
 
 ### Requirements
-> **hapi v17** and **Node.js 8.9.4 (or newer)**
+> **hapi v17** (or newer) and **Node.js 8.9.4** (or newer)
 
 
 ## Installation
