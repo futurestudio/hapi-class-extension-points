@@ -1,4 +1,5 @@
 <div align="center">
+<img width="471" style="max-width:100%;" src="https://raw.githubusercontent.com/futurestudio/hapi-class-extension-points/master/media/hapi-class-extension-points.png" alt="hapi-class-extension-points logo">
   <br/>
   <br/>
   <p>
