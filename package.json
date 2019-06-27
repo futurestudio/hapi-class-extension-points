@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "lodash": "~4.17.11",
-    "typical": "~5.0.0"
+    "typical": "~5.1.0"
   },
   "devDependencies": {
     "@hapi/code": "~5.3.1",
