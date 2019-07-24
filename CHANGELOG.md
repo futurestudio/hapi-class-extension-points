@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.1.0...v1.2.0) - 2019-07-25
+
+### Added
+- automatically add `h.continue` when missing in an extension point
+
+### Updated
+- bump dependencies
+
+
 ## [1.1.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.0.0...v1.1.0) - 2019-07-19
 
 ### Added
