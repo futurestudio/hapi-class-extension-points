@@ -61,6 +61,10 @@ experiment('hapi-class-extension-points plugin', () => {
 
         return h.continue
       }
+
+      async onPreAuth () {
+        await new Promise(resolve => setTimeout(resolve, 1))
+      }
     }
 
     class OnPreStart {
@@ -88,6 +92,64 @@ experiment('hapi-class-extension-points plugin', () => {
     const response = await this.server.inject(request)
     expect(response.statusCode).to.equal(200)
     expect(response.payload).to.equal('/testing')
+  })
+
+  it('registers multiple classes from Array', async () => {
+    const emitter = new EventEmitter()
+    let called = false
+
+    emitter.on('onPreStart', () => {
+      called = true
+    })
+
+    class TestExtension {
+      onRequest (request, h) {
+        request.setUrl('/testing')
+
+        return h.continue
+      }
+    }
+
+    class OnPreStart {
+      onPreStart () {
+        emitter.emit('onPreStart')
+      }
+    }
+
+    this.server.extClass([TestExtension, OnPreStart])
+
+    await this.server.initialize()
+    expect(called).to.be.true()
+  })
+
+  it('appends h.continue when missing', async () => {
+    let called = false
+
+    class TestExtension {
+      async onPreAuth () {
+        await new Promise(resolve => setTimeout(resolve, 1))
+        called = true
+      }
+    }
+
+    this.server.extClass(TestExtension)
+
+    await this.server.initialize()
+
+    this.server.route({
+      path: '/',
+      method: 'GET',
+      handler: request => request.path
+    })
+
+    const request = {
+      url: '/',
+      method: 'GET'
+    }
+
+    const response = await this.server.inject(request)
+    expect(called).to.be.true()
+    expect(response.statusCode).to.equal(200)
   })
 
   it('registers multiple classes from Array', async () => {
