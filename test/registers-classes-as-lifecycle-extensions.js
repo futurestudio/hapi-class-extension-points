@@ -4,6 +4,7 @@ const Lab = require('@hapi/lab')
 const Hapi = require('@hapi/hapi')
 const EventEmitter = require('events')
 const { expect } = require('@hapi/code')
+const ClassExtensions = require('../lib/registers-lifecycle-extensions')
 
 const { experiment, it, beforeEach } = (exports.lab = Lab.script())
 
@@ -195,5 +196,25 @@ experiment('hapi-class-extension-points plugin', () => {
 
     const throws = () => this.server.extClass(TestExtension)
     expect(throws).to.throw()
+  })
+
+  it('list all (inheritet) class methods', async () => {
+    class OnPreHandler {
+      onPreHandler () { }
+    }
+
+    class OnPreAuth extends OnPreHandler {
+      onPreAuth () { }
+    }
+
+    class OnPreResponse extends OnPreAuth {
+      onPreResponse () { }
+    }
+
+    const ext = new ClassExtensions(this.server)
+
+    expect(
+      ext.implementedLifecycleMethods(new OnPreResponse())
+    ).to.equal(['onPreAuth', 'onPreHandler', 'onPreResponse'])
   })
 })
