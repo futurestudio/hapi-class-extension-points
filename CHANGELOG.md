@@ -3,6 +3,7 @@
 ## [1.2.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.1.0...v1.2.0) - 2019-07-25
 
 ### Added
+- find all class methods, also the inherited ones (from the prototype chain)
 - automatically add `h.continue` when missing in an extension point
 
 ### Updated
