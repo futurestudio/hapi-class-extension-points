@@ -1,7 +1,7 @@
 {
   "name": "hapi-class-extension-points",
   "description": "hapi plugin that registers lifecycle extension points from class methods",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Future Studio <info@futurestud.io>",
   "bugs": {
     "url": "https://github.com/futurestudio/hapi-class-extension-points/issues"
