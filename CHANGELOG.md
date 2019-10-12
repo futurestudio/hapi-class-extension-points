@@ -1,9 +1,10 @@
 # Changelog
 
-## [1.2.1](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.2.0...v1.2.1) - 2019-xx-xx
+## [1.2.1](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.2.0...v1.2.1) - 2019-10-12
 
 ### Updated
-- minor code refactorings
+- bump dependencies
+- internal refactorings and clean-ups
 
 
 ## [1.2.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.1.0...v1.2.0) - 2019-07-30
