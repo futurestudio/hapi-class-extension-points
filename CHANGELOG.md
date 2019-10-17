@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.3.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.2.1...v1.3.0) - 2019-10-17
+
+### Added
+- basic TypeScript declarations in `lib/index.d.ts`
+
+### Updated
+- bump dependencies
+- internal refactorings and clean-ups
+
+
 ## [1.2.1](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.2.0...v1.2.1) - 2019-10-12
 
 ### Updated

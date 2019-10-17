@@ -2,22 +2,16 @@
   "name": "hapi-class-extension-points",
   "description": "hapi plugin that registers lifecycle extension points from class methods",
   "version": "1.2.1",
-  "author": "Future Studio <info@futurestud.io>",
+  "author": "Marcus Pöhls <marcus@futurestud.io>",
   "bugs": {
     "url": "https://github.com/futurestudio/hapi-class-extension-points/issues"
   },
-  "contributors": [
-    {
-      "name": "Marcus Pöhls",
-      "email": "marcus@futurestud.io"
-    }
-  ],
   "dependencies": {
     "lodash": "~4.17.15",
     "typical": "~5.1.0"
   },
   "devDependencies": {
-    "@hapi/code": "~6.0.0",
+    "@hapi/code": "~7.0.0",
     "@hapi/hapi": "~18.4.0",
     "@hapi/lab": "~21.0.0",
     "eslint": "~6.5.1",
@@ -26,7 +20,7 @@
     "eslint-plugin-node": "~10.0.0",
     "eslint-plugin-promise": "~4.2.1",
     "eslint-plugin-standard": "~4.0.1",
-    "husky": "~3.0.8"
+    "husky": "~3.0.9"
   },
   "engines": {
     "node": ">=8.9.4"
@@ -40,6 +34,7 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futurestudio/hapi-class-extension-points.git"
