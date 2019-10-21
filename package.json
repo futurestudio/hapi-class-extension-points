@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "lodash": "~4.17.15",
-    "typical": "~5.1.0"
+    "typical": "~5.2.0"
   },
   "devDependencies": {
     "@hapi/code": "~7.0.0",
