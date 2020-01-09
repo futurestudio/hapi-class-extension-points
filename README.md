@@ -56,11 +56,7 @@ This plugin requires **hapi v19** (or later) and **Node.js v12 or newer**.
 Add `hapi-class-extension-points` as a dependency to your project:
 
 ```bash
-# NPM v5 users, this way is yours
 npm i hapi-class-extension-points
-
-# you’re using NPM v4:
-npm i -S hapi-class-extension-points
 ```
 
 
