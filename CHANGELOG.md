@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.3.0...v2.0.0) - 2020-xx-xx
+
+### Breaking Changes
+- require hapi v19
+- require Node.js v12
+
+
 ## [1.3.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.2.1...v1.3.0) - 2019-10-17
 
 ### Added

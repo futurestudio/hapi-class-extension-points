@@ -39,8 +39,17 @@ Join the <a href="https://futurestud.io/university">Future Studio University and
 This hapi plugin adds the `server.extClass(class)` decoration to register lifecycle extensions from class methods.
 
 
-### Requirements
-> **hapi v17** (or newer) and **Node.js 8.9.4** (or newer)
+## Requirements
+> **hapi v19 (or later)** and **Node.js v12 (or newer)**
+
+This plugin requires **hapi v19** (or later) and **Node.js v12 or newer**.
+
+
+### Compatibility
+| Major Release | [hapi.js](https://github.com/hapijs/hapi) version | Node.js version |
+| --- | --- | --- |
+| `v2` | `>=19 @hapi/hapi` | `>=12` |
+| `v1` | `>=17 hapi` | `>=8` |
 
 
 ## Installation
