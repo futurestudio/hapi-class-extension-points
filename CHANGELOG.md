@@ -1,10 +1,10 @@
 # Changelog
 
-## [2.0.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.3.0...v2.0.0) - 2020-xx-xx
+## [2.0.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.3.0...v2.0.0) - 2020-01-10
 
 ### Breaking Changes
-- require hapi v19
 - require Node.js v12
+  - this change aligns with the hapi ecosystem requiring Node.js v12 with the release of hapi 19
 
 
 ## [1.3.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.2.1...v1.3.0) - 2019-10-17
