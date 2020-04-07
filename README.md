@@ -18,7 +18,6 @@
     <a href="https://snyk.io/test/github/futurestudio/hapi-class-extension-points"><img src="https://snyk.io/test/github/futurestudio/hapi-class-extension-points/badge.svg" alt="Known Vulnerabilities" data-canonical-src="https://snyk.io/test/github/futurestudio/hapi-class-extension-points" style="max-width:100%;"></a>
     <a href="https://www.npmjs.com/package/hapi-class-extension-points"><img src="https://img.shields.io/npm/v/hapi-class-extension-points.svg" alt="hapi-class-extension-points Version" data-canonical-src="https://img.shields.io/npm/v/hapi-class-extension-points.svg" style="max-width:100%;"></a>
         <a href="https://www.npmjs.com/package/hapi-class-extension-points"><img src="https://img.shields.io/npm/dm/hapi-class-extension-points.svg" alt="Monthly downloads"></a>
-    <a href="https://greenkeeper.io/" rel="nofollow"><img src="https://badges.greenkeeper.io/futurestudio/hapi-class-extension-points.svg" alt="Greenkeeper badge" data-canonical-src="https://badges.greenkeeper.io/futurestudio/hapi-class-extension-points.svg" style="max-width:100%;"></a>
   </p>
   <p>
     <em>Follow <a href="http://twitter.com/marcuspoehls">@marcuspoehls</a> for updates!</em>
