@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "lodash": "~4.17.15",
-    "typical": "~6.0.0"
+    "typical": "~6.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@hapi/code": "~8.0.1",
@@ -41,6 +42,9 @@
   },
   "scripts": {
     "prepush": "npm test",
-    "test": "lab --assert @hapi/code --leaks --coverage --lint --reporter console --output stdout --reporter html --output ./coverage/coverage.html"
-  }
+    "test": "lab --assert @hapi/code --leaks --coverage --lint --reporter console --output stdout --reporter html --output ./coverage/coverage.html",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
