@@ -7,8 +7,8 @@
     "url": "https://github.com/futurestudio/hapi-class-extension-points/issues"
   },
   "dependencies": {
-    "lodash": "~4.17.15",
-    "typical": "~6.0.0"
+    "@supercharge/classes": "~1.3.0",
+    "lodash": "~4.17.15"
   },
   "devDependencies": {
     "@hapi/code": "~8.0.1",
@@ -34,7 +34,7 @@
   ],
   "license": "MIT",
   "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "types": "typings",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/futurestudio/hapi-class-extension-points.git"
