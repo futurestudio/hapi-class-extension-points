@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.1.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v2.0.0...v2.1.0) - 2020-06-22
+
+### Added
+- TypeScript types for the provided `server.extClass` decoration
+
+### Updated
+- bump dependencies
+
+
 ## [2.0.0](https://github.com/futurestudio/hapi-class-extension-points/compare/v1.3.0...v2.0.0) - 2020-01-10
 
 ### Breaking Changes
