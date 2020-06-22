@@ -1,4 +1,4 @@
-'use strict'
+/// <reference types='node' />
 
 declare module '@hapi/hapi' {
     interface Server {
