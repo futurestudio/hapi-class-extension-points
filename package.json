@@ -7,7 +7,7 @@
     "url": "https://github.com/futurestudio/hapi-class-extension-points/issues"
   },
   "dependencies": {
-    "@supercharge/classes": "~1.9.0",
+    "@supercharge/classes": "~1.10.0",
     "lodash": "~4.17.15"
   },
   "devDependencies": {
